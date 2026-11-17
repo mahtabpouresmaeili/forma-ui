@@ -2,7 +2,7 @@
 
 **A React component library case study and interactive consumer demo.** This project presents Forma UI's component API, design tokens, accessibility implementation, and developer setup in a responsive portfolio page.
 
-> **Release status:** The [public npm listing](https://www.npmjs.com/package/@mahtab7/forma-ui) currently shows a temporary `0.0.0-stage` placeholder and says the operational release is awaiting review. The demo uses a local package snapshot referenced as `0.1.0`; customers should wait for the approved release before installing the package.
+> **Release status:** The [public npm listing](https://www.npmjs.com/package/@mahtab7/forma-ui) currently shows a temporary `0.0.0-stage` placeholder and says the operational release is awaiting review. This showcase uses a pinned local snapshot of `0.1.0` so its demo can build independently; customers should wait for the approved public release before installing the package from npm.
 
 ## What you'll find
 
@@ -20,7 +20,7 @@ React · TypeScript · Vite · Forma UI · CSS
 
 ## Run the showcase
 
-Requires Node.js and npm. The current registry package is a temporary placeholder, so a fresh dependency install may fail while the release is under review. The existing workspace contains the package snapshot used by the preview.
+Requires Node.js and npm. The Forma UI snapshot is included under `vendor/`; the remaining app dependencies install from npm as usual.
 
 ```sh
 npm run dev
@@ -61,7 +61,7 @@ function Example() {
 
 ## Project scope
 
-This repository is the **consumer showcase**, not the source repository for the component library. The example components come from the package snapshot already present in the workspace. A clean npm installation and public deployment are pending the operational package release.
+This repository is the **consumer showcase**, not the source repository for the component library. Its preview uses the pinned package artifact in `vendor/` while the public npm release is under review. The demo can be deployed independently; installing the library from npm remains pending the operational release.
 
 ```text
 src/

@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mahtab7/forma-ui": "^0.1.0",
+    "@mahtab7/forma-ui": "file:vendor/forma-ui-0.1.0.tgz",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
